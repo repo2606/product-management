@@ -69,9 +69,4 @@ public class ProductController {
 
 
 
- /*Model: use to exchange  data between view and controller (bind data between java code and html code , Model is used)
-  * h2- rutime, test db, default url: 
-jdbc:h2:mem:testdb
-  * 
-  * */
  
