@@ -17,7 +17,7 @@ public class Product {
 	
 	private String description;
 	
-	private String category;        // purchased , Not yet, wishlist
+	private String category;        
 
 	
 	public Product() {
