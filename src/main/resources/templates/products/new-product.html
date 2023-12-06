@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layouts::fooheader"></head>
+
+<body>
+
+<nav th:replace="layouts::deepak"></nav>
+
+
+<div class="container">
+		<form action="/products/save" th:object="${product}" method="POST">
+		
+		
+		<input type="text" placeholder="Product Name" th:field="${product.name}">
+		
+		
+		<select th:field="${product.category}">
+			<option th:value="purchase"> purchased</option>
+			<option th:value="Awaiting"> Not yet</option>
+			<option th:value="Maybelater">wish list</option>
+		</select>
+		
+		
+		<textarea type="text" placeholder="Enter Product Description" th:field="${product.description}"></textarea>
+		
+      <button type="submit">Create Product</button>
+      
+		</form>
+</div>
+
+</body>
+
+
+</html>
