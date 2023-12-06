@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.deepak</groupId>
-	<artifactId>ProductMgmtApp</artifactId>
+	<artifactId>ProductMgmtApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ProductMgmtApp</name>
 	<description>product management app</description>
