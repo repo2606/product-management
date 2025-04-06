@@ -32,7 +32,7 @@ public class CustomerController {
 		
 		model.addAttribute("customers", custom);
 		
-		return "customer/list-customer";
+		return "customers/list-customer";
 	}
 	
 	
