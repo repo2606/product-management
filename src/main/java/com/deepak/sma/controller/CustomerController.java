@@ -53,7 +53,7 @@ public class CustomerController {
 		
 		custRepo.save(customer);
 		
-		return"redirect:/customers/new";
+		return"redirect to:/customers/new";
 		
 	}
 	
