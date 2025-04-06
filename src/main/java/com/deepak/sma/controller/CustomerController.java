@@ -43,7 +43,7 @@ public class CustomerController {
 		
 		model.addAttribute("customer", aCustomer );
 		
-		return "customer/new-customers";
+		return "customer/new-cust";
 		
 	}
 	
