@@ -43,8 +43,9 @@ public class CustomerController {
 		
 		model.addAttribute("customer", aCustomer );
 		
-		return "customer/newCustomersgcasg";
-		
+
+		return "customer/new-cust";
+
 	}
 	
 	
